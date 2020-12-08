@@ -1,7 +1,7 @@
-fun greetHello(personName: String){
-    println("Hi $personName")
+fun greetHello(greeting: String, personName: String){
+    println("$greeting $personName")
 }
 
 fun main(){
-    greetHello("Sachin")
+    greetHello("Hello","Sachin")
 }
