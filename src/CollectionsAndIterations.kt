@@ -5,5 +5,22 @@ fun main(){
     println(dailyRoutine[2])
     println(dailyRoutine.get(0))
     val check = dailyRoutine[0].equals("GetUp")
-    print(check)
+    println(check)
+
+    //Three types of for loops
+    for(eachThing in dailyRoutine){
+        print("$eachThing ")
+    }
+
+    println()
+
+    dailyRoutine.forEach {
+        print("$it ") //here it is a default variable that holds each element from the array at each iteration
+    }
+
+    println()
+
+    dailyRoutine.forEach { eachThing ->
+        print("$eachThing ")
+    }
 }
