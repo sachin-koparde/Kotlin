@@ -21,6 +21,13 @@ fun main(){
     println()
 
     dailyRoutine.forEach { eachThing ->
-        print("$eachThing ")
+        println("$eachThing ")
     }
+
+    //Looping with index
+
+    dailyRoutine.forEachIndexed{ index, eachThing ->
+        println("$eachThing is at index $index")
+    }
+
 }
