@@ -8,4 +8,6 @@ fun main() {
     interestingThings.forEachIndexed{index, interestingThing ->
         println("$interestingThing is at $index")
     }
+
+
 }
