@@ -1,4 +1,4 @@
-fun sayHello(wish: String, vararg name: String ){
+fun sayHello(wish: String, vararg name: String){
     name.forEach(){ sayName->
         println("$wish $sayName")
     }
