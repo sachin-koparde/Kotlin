@@ -10,4 +10,18 @@ fun main() {
     }
 
 
+    //mutable List
+
+    val interestingThingsMutable = mutableListOf("Eat", "Code", "Read", "Sleep")
+
+    interestingThingsMutable.forEach{ interestingThing ->
+        println(interestingThing)
+    }
+
+    println("After new addition to the list: ")
+    interestingThingsMutable.add("GetUp")
+    interestingThingsMutable.forEach{ interestingThing->
+        println(interestingThing)
+    }
+
 }
