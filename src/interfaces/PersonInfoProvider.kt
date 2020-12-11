@@ -9,6 +9,10 @@ interface PersonInfoProvider{
     }
 }
 
+interface sessionInfoProvider{
+
+}
+
 class BasicInfoProvider: PersonInfoProvider{
     override val infoProvider: String
         get() = "This is from the class"
