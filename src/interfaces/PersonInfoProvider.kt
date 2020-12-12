@@ -35,7 +35,6 @@ fun checkTypes( infoProvider: PersonInfoProvider){
     }
     else{
         print("not a session info provider")
-        
     }
 }
 
